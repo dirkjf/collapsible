@@ -1,6 +1,6 @@
 {
   "name": "@dirkjf/collapsible",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A very simple script for collapsible elements. One element triggers (or toggles) another (or more) elements that are collapsible. ",
   "main": "collapsible.js",
   "repository": "https://github.com/dirkjf/collapsible",
