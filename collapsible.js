@@ -8,10 +8,9 @@ document.addEventListener('click', (event) => {
   }
 }, false);
 
-const toggleCollapse = (targetSelector) => {
+const toggleCollapse = targetSelector => {
   const targets = document.querySelectorAll('.' + targetSelector);
   targets.forEach(target => {
-
     if (!target.classList.contains('collapsible-show')) {
       target.style.maxHeight = target.scrollHeight + 'px';
     } else {
@@ -19,7 +18,6 @@ const toggleCollapse = (targetSelector) => {
     }
     target.classList.toggle('collapsible-show');
   });
-
 }
 
 const closeOnClickOutsideElements = document.querySelectorAll('[data-close-on-click-outside]');
@@ -31,7 +29,6 @@ function hideOnClickOutside(element) {
     if (!element.contains(event.target) && isVisible(element) && !element.classList.contains(event.target.getAttribute('data-collapsible-target'))) {
       element.classList.remove('collapsible-show')
       element.style.maxHeight = 0;
-
     }
   }
   document.addEventListener('click', outsideClickListener)
