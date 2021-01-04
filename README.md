@@ -5,7 +5,7 @@ A very simple script for collapsible elements. One element triggers (or toggles)
 -----------------------
 ## How to use
 
-Include `collapsible.js` and `collapsible.css` and use it. With one trigger you can collapse as many elements as you want. As long as their classnames contain the value of `data-collapsible-target` on the trigger.
+Import `collapsible.js` and `collapsible.scss` and use it. With one trigger you can collapse as many elements as you want. As long as their classnames contain the value of `data-collapsible-target` on the trigger.
 
 ```HTML
 <button data-collapsible-target="collapsible-one">Toggle me</button> 
