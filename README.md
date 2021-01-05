@@ -20,7 +20,7 @@ With one trigger you can collapse as many elements as you want. As long as their
     This div will be collapsed because the classname matches "data-collapsible-target"
 </div>
 ```
-
+For a live example see https://jsfiddle.net/dirkjf/nyLtg24v/. 
 
 ## Transition time
 By default, the transition from open to closed and vise versa is 0.2 seconds. You can change this by setting the css property `--collapsible-transition-time` that is scoped to the element. You can change the time like so:
