@@ -47,4 +47,4 @@ function docReady(fn) {
   }
 }
 
-docReady(docReady);
+docReady(collapsible);

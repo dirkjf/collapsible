@@ -56,7 +56,7 @@ function docReady(fn) {
   }
 }
 
-docReady(docReady);
+docReady(collapsible);
 }();
 !function() {
 "use strict";
