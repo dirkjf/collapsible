@@ -33,7 +33,7 @@ function collapsible() {
       // Third checks if the element clicked isn't the toggler, which would result in a double click event that conflict each other.
       if (!element.contains(event.target) && isVisible(element) && !element.classList.contains(event.target.getAttribute('data-collapsible-target'))) {
         element.classList.remove('collapsible-show');
-        element.style.maxHeight = 0;
+        element.style.maxHeight = 0 + 'px';
       }
     };
 
