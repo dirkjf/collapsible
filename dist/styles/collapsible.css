@@ -1,0 +1,9 @@
+[class^=collapsible] {
+  --collapsible-transition-time: 0.2s;
+  display: block;
+  max-height: 0;
+  overflow: hidden;
+  transition: var(--collapsible-transition-time);
+}
+
+/*# sourceMappingURL=collapsible.css.map*/
